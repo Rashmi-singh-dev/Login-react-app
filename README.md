@@ -12,56 +12,84 @@
 <li>NodeJS</li>
 </ul><h2>Setup</h2>
 <hr><ol>
-<li>Clone the project from Github <a href="https://github.com/Rashmi-singh-dev/Login-react-app.git">This link </a>.</li>
-</ol><h5>Steps</h5><ul>
-<li>
-<ol start="2">
-<li>In the project directory, you can run: 
-```bash 
-<code> `npm install` </code></li>
+  
+
+
+## Project Set-up steps
+
+To Run this project run
+
+## 1 ) Clone the repo
+
+```bash
+git clone [https://github.com/District-Printing-Technologies/Frontend_src.git](https://github.com/Rashmi-singh-dev/Login-react-app.git)
+```
+
+## 2) Install npm packages
+
+Install the npm packages described in the package.json and verify that it works:
+```bash
+npm install
+```
+
+## 3) Run Project
+```bash
+npm start
+```
+
+## 4) Create Build file 
+```bash
+npm build
+```
+
+## 5) Run Backend Part
+ ```bash
+cd backend 
+```
+
+## 7) Install npm packages
+
+Install the npm packages described in the package.json and verify that it works:
+```bash
+npm install
+```
+ 
+## 8) Run Backend
+```bash
+npm start
+```
+  
+## Follow this Steps connect with Databsse to Backend .
+ 1) Download MognoDB compass [From here]('https://www.mongodb.com/try/download/compass')
+  
+ 2) create Local connection using 
+  ```bash
+  mongodb://localhost:27017
   ```
-</ol>
-</li>
-</ul><ul>
-<li>
-<ol start="3">
-<li>To start Project   <code>npm start</code></li>
-</ol>
-</li>
-</ul><ul>
-<li>
-<ol start="4">
-<li>Runs the app in the development mode.\ Open <a href="http://localhost:3000">http://localhost:3000</a> to view it in your browser.</li>
-</ol>
-</li>
-</ul><ul>
-<li>
-<ol start="5">
-<li>Start Backend APP #### ' cd backend'</li>
-</ol>
-</li>
-</ul><ul>
-<li>
-<ol start="6">
-<li>Run commnand  ### 'npm install'</li>
-</ol>
-</li>
-</ul><ul>
-<li>
-<ol start="7">
-<li>Enter this command to start backend  ### 'npm start'</li>
-</ol>
-</li>
-</ul><ul>
-<li>
-<ol start="8">
-<li>Now backend server will start.</li>
-</ol>
-</li>
-</ul><ul>
-<li>
-<ol start="9">
-<li>connect App with MongoDB database.</li>
-</ol>
-</li>
-</ul>
+  
+ 3) Create New Database Name ``` test-db ```
+  
+ 4) Add users table .
+  
+ 5) Add json data 
+  ```bash
+  
+    {
+  "_id": {
+    "$oid": "63fb52a498525d6ec1f78b7b"
+  },
+  "name": "dev",
+  "email": "dev@gmail.com",
+  "password": "dev",
+  "__v": 0
+}
+  
+  ```
+  
+  6) Ready to use 
+  
+  ### Follow this steps to Run Project .
+  
+  Thanks 
+  @author Rashmi Singh
+  
