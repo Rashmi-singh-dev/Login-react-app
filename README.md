@@ -22,7 +22,9 @@ To Run this project run
 ## 1 ) Clone the repo
 
 ```bash
-git clone [https://github.com/District-Printing-Technologies/Frontend_src.git](https://github.com/Rashmi-singh-dev/Login-react-app.git)
+  
+git clone [https://github.com/Rashmi-singh-dev/Login-react-app.git](https://github.com/Rashmi-singh-dev/Login-react-app.git)
+  
 ```
 
 ## 2) Install npm packages
@@ -60,18 +62,18 @@ npm start
 ```
   
 ## Follow this Steps connect with Databsse to Backend .
- 1) Download MognoDB compass [From here]('https://www.mongodb.com/try/download/compass')
+1) Download MognoDB compass [From here]('https://www.mongodb.com/try/download/compass')
   
- 2) create Local connection using 
+2) create Local connection using 
   ```bash
   mongodb://localhost:27017
   ```
   
- 3) Create New Database Name ``` test-db ```
+3) Create New Database Name ``` test-db ```
   
- 4) Add users table .
+4) Add users table .
   
- 5) Add json data 
+5) Add json data 
   ```bash
   
     {
