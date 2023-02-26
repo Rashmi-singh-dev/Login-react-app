@@ -23,7 +23,7 @@ To Run this project run
 
 ```bash
   
-git clone [https://github.com/Rashmi-singh-dev/Login-react-app.git](https://github.com/Rashmi-singh-dev/Login-react-app.git)
+git clone [https://github.com/Rashmi-singh-dev/Login-react-app.git]('https://github.com/Rashmi-singh-dev/Login-react-app.git')
   
 ```
 
