@@ -1,0 +1,70 @@
+:root{
+  --bgcolor:#232323;
+  --bghover:#0c342c;
+}
+
+body {
+  background: #70e1f5;
+  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  
+  background: linear-gradient(to right, #ffd194, #70e1f5);
+} 
+.af-layout-navbar {
+  background-color: var(--bgcolor);
+}
+.af-navbar-list-item li a:hover{
+  color: white !important;
+  background-color: var(--bghover);
+  border-radius: 5px;
+}
+.af-navbar-text-color a{
+  color: white;
+}
+.af-navbar-search
+{
+  border-color: white !important;
+  color: black !important;
+}
+.af-navbar-search:hover{
+  color: white !important;
+  background-color: var(--bghover) !important;
+}
+.af-footer{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+form {
+  padding:20px;
+  margin:0 auto;
+  background:#ffffff59; 
+  -webkit-box-shadow: 3px 3px 23px -9px rgba(0,0,0,0.86);
+  -moz-box-shadow: 3px 3px 23px -9px rgba(0,0,0,0.86);
+  box-shadow: 3px 3px 23px -9px rgba(0,0,0,0.86);
+}
+
+form input {
+  border:1px solid #eee;
+  border-radius:0 !important;
+  padding:5px 8px;
+  color:#444;
+  width: 100% !important;
+}
+
+form button {
+  color:#555;
+  background:#ffffffad;
+  border:1px solid #fff !important;
+  margin-top:20px;
+  border-radius:0px Important;
+}
+
+form button:hover {
+  background:#121111 !important;
+}
+
+.pull-right {
+  float:right;
+}
