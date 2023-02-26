@@ -16,7 +16,10 @@
 </ol><h5>Steps</h5><ul>
 <li>
 <ol start="2">
-<li>In the project directory, you can run:  <code>bash `npm install` </code></li>
+<li>In the project directory, you can run: 
+```bash 
+<code> `npm install` </code></li>
+  ```
 </ol>
 </li>
 </ul><ul>
